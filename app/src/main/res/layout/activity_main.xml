@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sq2"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="175dp"
+        android:text=" "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sq1"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="175dp"
+        android:text=" "
+        app:layout_constraintEnd_toStartOf="@+id/sq2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sq9"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:text=" "
+        app:layout_constraintStart_toEndOf="@+id/sq8"
+        app:layout_constraintTop_toBottomOf="@+id/sq6" />
+
+    <Button
+        android:id="@+id/sq8"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:text=" "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sq5" />
+
+    <Button
+        android:id="@+id/sq7"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:text=" "
+        app:layout_constraintEnd_toStartOf="@+id/sq8"
+        app:layout_constraintTop_toBottomOf="@+id/sq4" />
+
+    <Button
+        android:id="@+id/sq3"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="175dp"
+        android:text=" "
+        app:layout_constraintStart_toEndOf="@+id/sq2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sq5"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:text=" "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sq2" />
+
+    <Button
+        android:id="@+id/sq4"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:text=" "
+        app:layout_constraintEnd_toStartOf="@+id/sq5"
+        app:layout_constraintTop_toBottomOf="@+id/sq1" />
+
+    <Button
+        android:id="@+id/sq6"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:text=" "
+        app:layout_constraintStart_toEndOf="@+id/sq5"
+        app:layout_constraintTop_toBottomOf="@+id/sq3" />
+
+    <TextView
+        android:id="@+id/whoWon"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:textColor="#A52020"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sq8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
